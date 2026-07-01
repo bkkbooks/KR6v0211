@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6v0211/v1
+canonical_location: https://kanripo.org/bkk/KR6v0211/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 嵩顯寺碑
+  identifiers:
+    alt_id:
+    - I01n0012
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/I/I01/I01n0012.xml
+    old_id: I01n0012
+  edition:
+    short: bkk
+editions:
+- short: 佛拓
+  label: 佛拓
+  source_xml_id: wit.orig
+- short: I
+assets:
+  parts:
+  - {seq: 0, filename: KR6v0211_000.yaml, hash: 'sha256:8566829d5c5827bcb67fad098bb6fdbd1d7a5ecd35813845f7e1be6959a00d42'}
+  - {seq: 1, filename: KR6v0211_001.yaml, hash: 'sha256:0ced21fff2ea8d94ce8e3d4385521e88591a8f6304ba4636076c01933de93e3c'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6v0211_001.markers.yaml, hash: 'sha256:ed9a671630347508c3777e9e1a9c864ca59842510924b81ed404ac85f7cc11e9'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6v0211_I_001-juan-start
+    span:
+    - body
+    - 0
+    - 465
+  label: 嵩顯寺碑
+  type: juan
+  level: 1
+hash: sha256:c2c0edad51ce5f74a7fd6d277e6997edbd27414efe9bc8bda74706715c10b56a
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

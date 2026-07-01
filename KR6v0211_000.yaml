@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6v0211/i/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 嵩顯寺碑
+  edition:
+    short: i
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/I/I01/I01n0012.xml
+    old_id: I01n0012
+hash: sha256:8566829d5c5827bcb67fad098bb6fdbd1d7a5ecd35813845f7e1be6959a00d42
