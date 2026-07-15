@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6v0211/v1
 canonical_location: https://kanripo.org/bkk/KR6v0211/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 嵩顯寺碑
   identifiers:
@@ -22,10 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6v0211_000.yaml, hash: 'sha256:8566829d5c5827bcb67fad098bb6fdbd1d7a5ecd35813845f7e1be6959a00d42'}
-  - {seq: 1, filename: KR6v0211_001.yaml, hash: 'sha256:83917f136772ab05c93a907df6c0a6e9a676ca02d89dbd1db3c1e465bea8f0c0'}
+  - {seq: 1, filename: KR6v0211_001.yaml, hash: 'sha256:0ced21fff2ea8d94ce8e3d4385521e88591a8f6304ba4636076c01933de93e3c'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6v0211_000.markers.yaml, hash: 'sha256:ebb0a9c420a408dce7ee0a6cec70c89d5f8df18001c6b11c352810138fa9fa03'}
-  - {seq: 1, role: markers, filename: assets/KR6v0211_001.markers.yaml, hash: 'sha256:1291268768fcdc86e946b64c5abfcf9c9280fc64328be7a14c395718f37bdc04'}
+  - {seq: 1, role: markers, filename: assets/KR6v0211_001.markers.yaml, hash: 'sha256:72a7d10d906fcec3ced85c86809961a103abc73ca62b729f848d1ade664e0dcc'}
 table_of_contents:
 - ref:
     seq: 1
@@ -37,4 +37,7 @@ table_of_contents:
   label: 嵩顯寺碑
   type: juan
   level: 1
-hash: sha256:c67dda9735088a44aa981803b4baa751915d08832ceaaf75d57576bde56f6930
+hash: sha256:0749e1867c32ca05f46da8e7a0e32922afb6de073b6064eef0e978059fd21bd6
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
